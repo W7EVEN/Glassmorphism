@@ -1,0 +1,118 @@
+@media all and (min-width: 1500px) {
+  .box {
+    width: 550px;
+    height: 600px;
+  }
+  .box .list:hover .content .rank {
+    right: 15px;
+    bottom: 10px;
+  }
+  .box .list .content .rank {
+    bottom: -100px;
+    right: -20px;
+  }
+  section::before {
+    transform: translate(-220px, -270px);
+  }
+  section::after {
+    transform: translate(220px, 220px);
+  }
+}
+
+@media all and (max-width: 1000px) {
+  .box {
+    width: 500px;
+  }
+
+  section::before,
+  section::after {
+    width: 330px;
+    height: 330px;
+  }
+}
+
+@media all and (max-width: 900px) {
+  .box {
+    width: 65vw;
+  }
+  section::before,
+  section::after {
+    width: 280px;
+    height: 280px;
+  }
+  section::before {
+    transform: translate(-180px, -270px);
+  }
+  section::after {
+    transform: translate(180px, 250px);
+  }
+}
+
+@media all and (max-width: 700px) {
+  .box {
+    width: 75vw;
+  }
+  .box .list:hover .content .rank {
+    right: 15px;
+    bottom: 10px;
+  }
+  .box .list .content .rank {
+    bottom: -100px;
+    right: -20px;
+  }
+  section::before {
+    transform: translate(-100px, -270px);
+  }
+  section::after {
+    transform: translate(100px, 250px);
+  }
+}
+
+@media all and (max-width: 550px) {
+  .box {
+    width: 90vw;
+  }
+
+  section::before,
+  section::after {
+    width: 270px;
+    height: 270px;
+  }
+  section::before {
+    transform: translate(-240px, -260px);
+  }
+  section::after {
+    transform: translate(240px, 220px);
+  }
+}
+
+@media all and (max-width: 450px) {
+  .box {
+    width: 100vw;
+  }
+  .box .list:hover .content .rank {
+    right: 15px;
+    bottom: 0;
+  }
+  .box .list .content .rank {
+    bottom: -100px;
+    right: -20px;
+  }
+
+  .box .list:hover {
+    transform: scale(1.1);
+  }
+
+  section::before,
+  section::after {
+    width: 240px;
+    height: 240px;
+  }
+
+  section::before {
+    transform: translate(-200px, -290px);
+  }
+  section::after {
+    transform: translate(200px, 250px);
+  }
+}
